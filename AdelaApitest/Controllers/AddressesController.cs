@@ -1,4 +1,4 @@
-using RestApiExample.Db;
+Ôªøusing RestApiExample.Db;
 using RestApiExample.Dtos;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
@@ -76,7 +76,7 @@ namespace RestApiExample.Controllers
                 if (value != null)
                 {
                     if (model.PropsSetToNull != null && model.PropsSetToNull.Contains(name))
-                        throw new ApplicationException("U poloûky oznaËenÈ jako 'nastavit na null' je z·roveÚ nastavena hodnota.");
+                        throw new ApplicationException("U polo≈æky oznaƒçen√© jako 'nastavit na null' je z√°rove≈à nastavena hodnota.");
                     _dbContext.Entry(dbModel).Property(name).CurrentValue = value;
                 }
 

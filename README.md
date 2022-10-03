@@ -18,14 +18,7 @@ Example result:
             "countryCode": "CZ",
             "street": "Matěchova",
             "countryId": 1,
-            "orientationNumber": "333",
-            "houseNubmer": "222",
-            "created": null,
-            "createdById": null,
-            "updatedById": null,
-            "note": null,
-            "validFrom": null,
-            "zipCode": "16000"
+            "orientationNumber": "333"
         },
         {
             "id": 66,
@@ -33,14 +26,7 @@ Example result:
             "countryCode": "CZ",
             "street": "Matěchova",
             "countryId": 1,
-            "orientationNumber": "111",
-            "houseNubmer": "2222",
-            "created": null,
-            "createdById": null,
-            "updatedById": null,
-            "note": null,
-            "validFrom": null,
-            "zipCode": "13000"
+            "orientationNumber": "111"
         }
     ],
     "returnedCount": 2,
